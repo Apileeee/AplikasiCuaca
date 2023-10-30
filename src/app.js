@@ -29,7 +29,7 @@ app.use(express.static(direktoriPublic))
 app.get('', (req, res) => {
     res.render('index', {
     judul: 'Aplikasi Cek Cuaca',
-    nama: 'Randi Proska Sandra'
+    nama: 'Arafil Azmi'
     })
 })
 
@@ -42,7 +42,7 @@ app.get('', (req, res) => {
 app.get('/bantuan', (req, res) => {
     res.render('bantuan', {
     judul: 'Ini halaman bantuan',
-    nama: 'Randi Proska Sandra',
+    nama: 'Arafil Azmi',
     teksBantuan: 'ini adalah teks bantuan'
     })
 })
@@ -111,7 +111,7 @@ app.get('/infocuaca', (req, res) => {
 app.get('/tentang', (req, res) => {
     res.render('tentang', {
     judul: 'Tentang Saya',
-    nama: 'Randi Proska Sandra'
+    nama: 'Arafil Azmi'
     })
 })
 
@@ -119,7 +119,7 @@ app.get('/tentang', (req, res) => {
 app.get('/bantuan', (req, res) => {
     res.render('404', {
     judul: '404',
-    nama: 'Randi Proska Sandra',
+    nama: 'Arafil Azmi',
     pesanKesalahan: 'Artikel yang dicari tidak ditemukan'
     })
 })
@@ -128,7 +128,7 @@ app.get('/bantuan', (req, res) => {
 app.get('*', (req, res) => {
     res.render('404', {
     judul: '404',
-    nama: 'Randi Proska Sandra',
+    nama: 'Arafil Azmi',
     pesanKesalahan: 'Halaman tidak ditemukan'
     })
 })
